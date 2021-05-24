@@ -8,6 +8,10 @@ let mapleader = ","
 nmap <leader>w :w <CR> 
 nmap <leader>q :q! <CR>
 
+"选中单词
+nnoremap <space> viw
+
+
 "处理复制粘贴
 
 vnoremap <Leader>y "+y
